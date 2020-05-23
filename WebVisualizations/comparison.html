@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Comparison</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <div class="navigation">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html">Lattitude</a>
+        <button class="navbar-toggler border" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    ​
+        <!-- nav links -->
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="navbarDropdownMenuLink" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="temp.html">Temperature</a>
+                <a class="dropdown-item" href="humidity.html">Humidity</a>
+                <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="comparison.html">Comparison</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="data.html">Data</a>
+            </li>
+            </ul>
+        </div>
+        </nav>
+    </div>
+
+    <!-- Left box  -->
+    <div class="box" style="padding-bottom: 5px;">
+      <h3 class="title">Comparison vs. X</h3>
+      <hr>
+
+
+<!-- Container 1 -->
+<div class="container">
+  <section class="row">
+    <div class="row" style="padding-bottom: 50px;">
+    <div class="col-lg-20 col-lg-20">
+      <div class="description-content">
+        <h1 class="description-header">Comparison: Latitude vs. X</h1>
+        <hr>
+
+ <!-- Content -->
+<div class="container">
+    <p>Click any plot for an in-depth anslys.</p>
+    <br>
+
+<!-- Content Section -->
+  <div class="container">
+    <div class="row" style="padding-bottom: 20px;">
+      <div class="col-6">
+        <a href="temp.html">
+          <img class="panel active" src="Resources/assets/images/Fig1.png" alt="Temperature Graph">
+        </a>
+      </div>
+
+      <div class="col-6">
+        <a href="humidity.html">
+          <img class="panel" src="Resources/assets/images/Fig2.png" alt="Humidity Graph">
+        </a>
+      </div>
+    </div>
+
+    <div class="row" style="padding-bottom: 30px;">
+      <div class="col-6">
+        <a href="cloudiness.html">
+          <img class="panel" src="Resources/assets/images/Fig3.png" alt="Cloudiness Graph">
+        </a>
+      </div>
+
+      <div class="col-6">
+        <a href="windspeed.html">
+          <img class="panel" src="Resources/assets/images/Fig4.png" alt="Wind Speed Graph">
+        </a>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

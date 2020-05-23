@@ -1,0 +1,40 @@
+body{background-color: #EDEDED; }
+
+.navbar{max-height: 55px; }
+
+.navigation .navbar-brand{
+    color: white; 
+    margin-left: 20px; 
+    padding: inherit; 
+    font-weight: bold; 
+    background-color: #264b15;
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbar{background-color: white; font-size: 17px; }
+
+/* h1 {color: rgb(104, 158, 104);} */
+
+.row{
+    width: 90vw;
+    position: relative;
+    margin-left: -40vw;
+    height: 50px;
+    margin-top: 30px;
+    left: 35%;
+    }
+
+    h1 {color: rgb(104, 158, 104);}
+
+    img{width:50% !important; height:50% !important;}
+
+    p{color: rgb(24, 51, 77);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px; }
+
+
+
+/* Media Queries */
+@media(max-width: 900px){.navbar-expand-sm{background-color: #094414;}
+    .navbar{max-height: inherit; padding: inherit;}
+    .navbar div{margin: inherit; background-color: white; }
+    }
